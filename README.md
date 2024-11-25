@@ -1,4 +1,4 @@
-'''javascript
+"""javascript
 var tongDonHang = 0;
 var tongTienTietKiem = 0;
 var tongtienhang = 0;
@@ -82,4 +82,4 @@ function pxgPrice(number, fixed = 0) {
     return number;
 }
 xemBaoCaoThongKe();
-'''
+"""
