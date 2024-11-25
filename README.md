@@ -1,10 +1,10 @@
-### Hướng Dẫn
+# Hướng Dẫn
 
-# Bước 1: vào https://shopee.vn/ bằng trình duyệt chrome hoặc khác bằng, yêu cầu sử dụng trên máy tính nhé 
+### Bước 1: vào https://shopee.vn/ bằng trình duyệt chrome hoặc khác bằng, yêu cầu sử dụng trên máy tính nhé 
 
-# Bước 2: Nhấn Phím F12 để mở devtools, sau đó chuyển sang mục "Console"
+### Bước 2: Nhấn Phím F12 để mở devtools, sau đó chuyển sang mục "Console"
 
-# Bước 3: Dán Code phía dưới và nhấn enter
+### Bước 3: Dán Code phía dưới và nhấn enter
 
 ## nếu có lỗi thì hãy gõ "allow pasting" vào console sau đó thực hiện lại bước 2 & 3
 
