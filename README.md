@@ -19,7 +19,7 @@ var tongSanPhamDaMua = 0;
 var trangThaiDonHangConKhong = true;
 var offset = 0;
 var si = 20;
-function xemBaoCaoThongKe() {
+function report() {
     var orders = [];
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
@@ -31,11 +31,9 @@ function xemBaoCaoThongKe() {
                 orders.forEach(order => {
                     let t31 = order['info_card']['final_total'] / 100000;
                     tongtienhang += t31;
-
                     order['info_card']['order_list_cards'].forEach(item => {
                         item['product_info']['item_groups'].forEach(itemGroups => {
                             itemGroups['items'].forEach(data => {
-
                                 let t5 = data["order_price"] / 100000;
                                 tongSanPhamDaMua += data["amount"];
                                 tongtienhangchuagiam += t5;
@@ -49,7 +47,7 @@ function xemBaoCaoThongKe() {
             offset += si;
             if (trangThaiDonHangConKhong) {
                 console.log('Đã thống kê được: ' + tongDonHang + ' đơn hàng. Đang lấy thêm dữ liệu....');
-                xemBaoCaoThongKe();
+                report();
             } else {
                 tongTienTietKiem = tongtienhangchuagiam - tongtienhang;
                 var tongTienChiTieuX = pxgPrice(tongtienhang);
@@ -90,5 +88,5 @@ function pxgPrice(number, fixed = 0) {
     }
     return number;
 }
-xemBaoCaoThongKe();
+report();
 ```
