@@ -6,7 +6,7 @@
 
 ### Bước 2: Dán Code phía dưới và nhấn enter, và đợi 1 lát sẽ hiện ra kết quả
 
-## <i style"color:red">nếu có lỗi thì hãy gõ "allow pasting" vào console sau đó thực hiện lại bước 2 & 3</i>
+##  Nếu có lỗi thì hãy gõ "allow pasting" vào console sau đó thực hiện lại bước 1 và 2 nhé !
 
 <img src='image.png'>
 
