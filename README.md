@@ -8,7 +8,7 @@
 
 ## nếu có lỗi thì hãy gõ "allow pasting" vào console sau đó thực hiện lại bước 2 & 3
 
-<img src = 'image.png'>
+<img src='image.png'>
 
 ```javascript
 var tongDonHang = 0;
